@@ -45,7 +45,7 @@
     transition: all 0.4s ease;
     border-radius: 12px;
 }
-.side_bar .shop_books a: hover{
+.side_bar .shop_books a:hover{
     color: #11101d;
     background: #fff;
 }
@@ -67,7 +67,7 @@ nav .side_bar{
     width: 250px;
     margin-top: 50px;
     left: 0%;
-    color: ;
+    color: crimson ;
     font-size: 20px;
     background: #11101d;
     padding: 8px;
@@ -76,16 +76,18 @@ nav .side_bar{
     /*z-index: 1;*/
 }
 nav #togglebtn{
+    background-color: #11101d;
+    border: none;
     position: absolute;
     color: #fff;
     right: 75%;
     top: 17px;
     left: 5%;
     font-size: 20px;
-    height: 50px;
-    width: 50px;
+    height: 3%;
+    width: 3%;
     text-align: center;
-    line-height: 50px;
+    line-height: 2rem;
 }
 nav .side_bar ul{    
     margin-left: 0;
@@ -170,7 +172,7 @@ nav .search_box input{
     width: 300px;        
 }
 nav .search_box i{
-    color: ;
+    color: #11101d;
     font-size: 20px;
     background: #fff;
     height: 100%;
